@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 
-const ClientSchema = new mongoose.schema({
+const { Schema } = mongoose;
+
+const ClientSchema = new Schema({
     name:{
         type: String,
     },
